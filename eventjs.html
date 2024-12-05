@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <h1>DOM Started</h1>
+    <!-- calculator area started -->
+    <div class="calculator-container common-container">
+      <h1>Simple Calculator</h1>
+      <p id="display">Display Sum</p>
+      <input type="text" id="input-field1" />
+      <input type="text" id="input-field2" />
+      <button id="add-input-text">Addition</button>
+      <button id="sub-input-text">Subtraction</button>
+    </div>
+    <!-- calculator area end -->
+    <br />
+    <!-- comment area started -->
+    <div class="comment-container common-container">
+      <div id="comment-area">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+          exercitationem impedit qui incidunt iure officiis dignissimos
+          accusantium doloribus, illum tempore, eligendi laborum. Nobis eius
+          animi dolores in consequatur ipsa commodi?
+        </p>
+      </div>
+      <div>
+        <textarea name="" cols="60" rows="5" id="new-comment"></textarea>
+        <br />
+        <button id="comment-btn">Add Post</button>
+      </div>
+    </div>
+    <!-- comment area end -->
+    <br />
+    <p id="handler-status">Default status</p>
+    <button onclick="console.log(7)">Click Me</button>
+    <button onclick="handleOnclick()">Handle Events</button>
+    <button id="make-blue">Make Blue</button>
+    <button id="make-green">Make Green</button>
+    <button id="make-purple">Make Purple</button>
+    <script src="script/event.js"></script>
+  </body>
+</html>
